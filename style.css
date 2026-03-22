@@ -1,0 +1,73 @@
+body {
+  margin:0;
+  font-family: Arial;
+  background: linear-gradient(135deg,#0f172a,#1e293b);
+  color:white;
+}
+
+.nav {
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+  background:#020617;
+}
+
+.hero {
+  text-align:center;
+  padding:100px;
+}
+
+button {
+  padding:10px;
+  border:none;
+  background:cyan;
+  cursor:pointer;
+  border-radius:8px;
+}
+
+.features {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+}
+
+.card {
+  background:#1e293b;
+  margin:10px;
+  padding:20px;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:scale(1.05);
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+}
+
+.box {
+  margin:10px;
+  padding:30px;
+  background:#334155;
+  border-radius:10px;
+}
+
+.glow:hover {
+  box-shadow:0 0 15px cyan;
+}
+
+.glass {
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.1);
+  padding:20px;
+  border-radius:10px;
+}
+
+.center {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
